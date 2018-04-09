@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const path = require('path')
 
-const PORT = 1337
+const PORT = 8080
 
 app.use(express.static('assets'))
 
