@@ -2,8 +2,7 @@
 /************************ braille  ******************/
 
 #braille_body {
-  /* background-color: #fef0cc; */
-  background-color: tomato;
+  background-color: #fef0cc; 
   width: 1400px;
   height: 1800px;
   background-position:fixed;
