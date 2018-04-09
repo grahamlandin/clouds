@@ -1,0 +1,78 @@
+
+/************************ braille  ******************/
+
+#braille_body {
+  background-color: #fef0cc;
+  width: 1400px;
+  height: 1800px;
+  background-position:fixed;
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+
+#braille_text {
+  width: 5000px;
+  position: relative;
+  -webkit-animation-name: braille_text; /* Chrome, Safari, Opera */
+  -webkit-animation-duration: 120s;
+  -webkit-animation-delay: 0s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-direction: reverse;
+  -webkit-animation-iteration-count: infinite;
+  
+  animation-name: braille_text;
+  animation-duration: 120s;
+  animation-delay: 0s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes braille_text {
+  0%   { left:-5000px; top:-65px;}
+  100% { left:1200px; top:-65px;}
+}
+
+/* Standard syntax */
+@keyframes braille_text {
+  0%   { left:-5000px; top:-65px;}
+  100% { left:1200px; top:-65px;}
+}
+
+#braille {
+  width: 1100px;
+  position: absolute;
+  top: 400px;
+  left: 0px;
+}
+
+#rod {
+  position: absolute;
+  width: 75px;
+  height: 520px;
+  top: 1296px;
+  left: 858px;
+  z-index: 10;
+}
+
+#cream_corner {
+  width: 360px;
+  height: 500px;
+  background-color: #fef0cc;
+  position: absolute;
+  top: -20px;
+  left: 1094px;
+}
+
+#next_button {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 1585px;
+  left: 1094px;
+}
+
+
