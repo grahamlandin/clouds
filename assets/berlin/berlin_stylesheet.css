@@ -1,0 +1,80 @@
+body#berlin_body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #5d6069;
+}
+
+.container {
+  width: 100vw;
+  height: 500vh;
+  padding-left: 9vw;
+  display: flex;
+}
+
+.img-magnifier-container {
+  position: relative;
+}
+
+.img-magnifier-glass {
+  position: absolute;
+  border-radius: 50%;
+  cursor: none;
+ 
+  width: 60vw;
+  height: 60vw;
+}
+
+#top, #middle, #bottom {
+  width: auto;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 7vw;
+}
+
+#top {
+  opacity: 0;
+  z-index: 10;
+  transition: 5s;
+}
+
+#middle {
+  z-index: 7;
+  opacity: 0;
+  transition: 3s;
+}
+
+#bottom {
+  z-index: 3;
+}
+
+#whole-scene {
+  width: 77vw;
+  height: auto;
+}
+
+.red {
+  width: 100%;
+  height: 100%;
+  background-color: #b96769;
+}
+
+#yellow-square {
+  position: fixed;
+  top: 50px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  opacity: 0;
+}
+
+.unhide#top {
+  opacity: 1 !important;
+  left: 12vw !important;
+}
+
+.unhide#middle {
+  opacity: 1 !important;
+}

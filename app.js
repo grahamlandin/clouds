@@ -10,4 +10,4 @@ app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname + '/assets/clouds/clouds.html'))
 })
 
-app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`))
+app.listen(PORT, () => console.log(`Berlin listening on port ${PORT}!`))
